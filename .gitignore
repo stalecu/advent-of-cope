@@ -106,6 +106,6 @@ tags
 .ionide
 
 ### Advent of Code ###
-input
+**/**/inputs/input
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,emacs,vim,linux
