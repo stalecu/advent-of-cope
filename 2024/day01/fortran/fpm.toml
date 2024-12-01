@@ -1,0 +1,16 @@
+name = "day01"
+version = "0.1.0"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[dependencies]
+[dependencies.stdlib]
+git = "https://github.com/fortran-lang/stdlib"
+branch = "stdlib-fpm"
+[install]
+library = false
+[fortran]
+implicit-typing = false
+implicit-external = false
+source-form = "free"
