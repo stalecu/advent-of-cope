@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "debug",
+			"file": "main.lpr",
+			"type": "fpc",
+			"presentation": {
+				"showReuseMessage": false,
+				"clear": true,
+				"revealProblems": "onProblem"
+			},
+			"buildOption": {
+				"unitOutputDir": "./out",
+				"customOptions": [
+					"-dDEBUG"
+				]
+			}
+		}
+	]
+}
